@@ -11,10 +11,10 @@ namespace Marian_Alexandra_Lab2.Models
         public string Title { get; set; }
         public decimal Price { get; set; }
 
-        public ICollection<Order> Orders { get; set; }
+        public ICollection<Order>? Orders { get; set; }
 
-        public int AuthorID { get; set; }
-        public Author Author { get; set; }
+        public int? AuthorID { get; set; }
+        public Author? Author { get; set; }
       
     }
 }
