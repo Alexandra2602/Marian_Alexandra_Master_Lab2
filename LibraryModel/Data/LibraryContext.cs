@@ -1,4 +1,4 @@
-﻿
+﻿using LibraryModel.Models;
 using Marian_Alexandra_Lab2.Models;
 using Microsoft.EntityFrameworkCore;
 namespace Marian_Alexandra_Lab2.Data
