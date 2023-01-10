@@ -35,11 +35,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LibraryModel\LibraryModel.csproj" />
+    <Folder Include="Areas\Identity\Data\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Identity\Data\" />
+    <ProjectReference Include="..\LibraryModel\LibraryModel.csproj" />
   </ItemGroup>
 
   <ItemGroup>
